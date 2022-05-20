@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <style>
+         img {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+         }
+         </style>
+      </head>
+   <body style="background-color:rgb(236, 248, 233);">
+      <div style="background-image: url('lll.png');">
+      <img src="pic.png" width="1500" height="300" style="width:70%;">
+      <form action = "http://localhost:5000/twitter" method = "POST">
+         <p font-weight="900"; style="color:rgb(59, 40, 228);">TWITTER</p>
+         <p>Text: <input type = "text" name = "Name" size="60" /></p>
+         <p><input style= "background-color:rgb(126, 188, 199)"  type = "submit" name="submit_button" value = "Post" /></p>
+         <p><input style= "background-color:rgb(223, 121, 26)" type = "submit" name="submit_button" value = "Scrape" /></p>
+      </form>
+      <p></p>
+   <div>
+      <form action = "http://localhost:5000/reddit" method = "POST">
+         <p font-weight="900"; style="color:rgb(221, 96, 23);">REDDIT</p>
+         <p>Text: <input type = "text" name = "Name" size="60" /></p>
+         <p><input style= "background-color:rgb(126, 188, 199)" type = "submit" name="submit_button" value = "Post" /></p>
+         <p><input style= "background-color:rgb(223, 121, 26)" type = "submit" name="submit_button" value = "Scrape" /></p>
+      </form>
+   </div>
+</div>
+   </body>
+</html>
